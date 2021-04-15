@@ -13,6 +13,8 @@
 		2DDDFEFD26283DC3002D54D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDDFEFC26283DC3002D54D1 /* Assets.xcassets */; };
 		2DDDFF0026283DC3002D54D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DDDFEFF26283DC3002D54D1 /* Preview Assets.xcassets */; };
 		2DDDFF0326283DC3002D54D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DDDFF0126283DC3002D54D1 /* LaunchScreen.storyboard */; };
+		2DDDFF0B262848A7002D54D1 /* CityRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDFF0A262848A7002D54D1 /* CityRow.swift */; };
+		2DDDFF0D26284A6D002D54D1 /* CityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDDFF0C26284A6D002D54D1 /* CityList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2DDDFEFF26283DC3002D54D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DDDFF0226283DC3002D54D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DDDFF0426283DC3002D54D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DDDFF0A262848A7002D54D1 /* CityRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRow.swift; sourceTree = "<group>"; };
+		2DDDFF0C26284A6D002D54D1 /* CityList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				2DDDFF0126283DC3002D54D1 /* LaunchScreen.storyboard */,
 				2DDDFF0426283DC3002D54D1 /* Info.plist */,
 				2DDDFEFE26283DC3002D54D1 /* Preview Content */,
+				2DDDFF0A262848A7002D54D1 /* CityRow.swift */,
+				2DDDFF0C26284A6D002D54D1 /* CityList.swift */,
 			);
 			path = CovidContactTracingApp;
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DDDFEF726283DC0002D54D1 /* AppDelegate.swift in Sources */,
+				2DDDFF0B262848A7002D54D1 /* CityRow.swift in Sources */,
 				2DDDFEF926283DC0002D54D1 /* SceneDelegate.swift in Sources */,
 				2DDDFEFB26283DC0002D54D1 /* ContentView.swift in Sources */,
+				2DDDFF0D26284A6D002D54D1 /* CityList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
